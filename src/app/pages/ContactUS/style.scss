@@ -1,0 +1,187 @@
+.user-detail-page.userWrapper {
+    max-width: 100%;
+    padding: 1.5rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    background: #eee;
+}
+.userWrapperinner {
+    max-width: 750px;
+    margin: auto;
+}
+.user-info ul.info_wrapper {
+    width: calc(50% - 10px);
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0 0 7px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    background: #fff;
+}
+.user-detail-page.userWrapper .user-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.user-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f4f7fa;
+}
+
+.user-detail-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.user-detail-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-detail-header h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.user-detail-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* Allow it to grow to fill the available space */
+}
+
+.user-info {
+    margin-bottom: 30px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.info-item strong {
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.info-icon {
+    margin-right: 8px;
+    color: #3498db;
+}
+
+.user-bio,
+.verification-levels,
+.user-location {
+    margin-top: 20px;
+}
+
+.user-bio h4,
+.verification-levels h4,
+.user-location h4 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.verification-level {
+    font-size: 16px;
+    color: #555;
+}
+
+.user-location p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Email section at the bottom right */
+.email-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.reduced-width {
+    width: 50%;
+}
+
+h5 {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #34495e;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #eee;
+    padding: 1rem 1.25rem;
+}
+
+.user-detail-page {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+}
+.profile-img-container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 2rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-img-container:hover .profile-img {
+    transform: scale(1.1); /* Optional: Add hover effect for zoom-in */
+  }
+  
+  .user-detail-page {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  h5 {
+    font-weight: 600;
+  }
+  
+  .text-muted {
+    font-size: 0.875rem;
+  }
+  
